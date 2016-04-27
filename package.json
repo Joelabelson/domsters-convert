@@ -4,7 +4,9 @@
   "description": "fun exercise to use SASS and more modern coding techniques with Jeremy Keith's Jay Script &amp; the Domsters code",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3",
+    "normalize.css": "^4.1.1"
   },
   "devDependencies": {},
   "scripts": {
