@@ -1,0 +1,92 @@
+body {
+  font-size: 76%;
+  font-family: "Helvetica","Arial",sans-serif;
+  margin: 1em 10%;
+  background-image: url(../images/background.gif);
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat-x;
+  max-width: 80em;
+  color: $texas-rose;
+  background-color: $tuna;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  &:link {
+    color: $gun-powder;
+    background-color: $porsche;
+  }
+  &:visited {
+    color: $pickled-bluewood;
+    background-color: $porsche;
+  }
+  &:hover {
+    color: $dolphin;
+    background-color: $texas-rose;
+  }
+  &:active {
+    color: $storm-gray;
+    background-color: $flax;
+  }
+}
+
+th {
+  color: $almond;
+  background-color: $cape-cod;
+}
+tr td {
+  color: $steel-gray;
+  background-color: $porsche;
+}
+tr.odd td {
+  color: $steel-gray;
+  background-color: $flax;
+}
+tr.highlight td {
+  color: $steel-gray;
+  background-color: $coral-reef;
+}
+td {
+  padding: .5em 3em;
+}
+h1 {
+  font-family: "Georgia","Times New Roman",sans-serif;
+  font: 2.4em normal;
+}
+h2 {
+  font-family: "Georgia","Times New Roman",sans-serif;
+  font: 1.8em normal;
+  margin-top: 1em;
+}
+h3 {
+  font-family: "Georgia","Times New Roman",sans-serif;
+  font: 1.4em normal;
+  margin-top: 1em;
+}
+dt {
+  margin-right: 1em;
+}
+dd {
+  margin-right: 3em;
+}
+dl {
+  overflow: hidden;
+}
+dt {
+  float: left;
+}
+dd {
+  float: left;
+}
+
+textarea {
+  font-family: "Helvetica","Arial",sans-serif;
+}
+label {
+  display: block;
+}
+fieldset {
+  border: 0;
+}
